@@ -1,2 +1,3 @@
 C:\Users\Jonathan\Dropbox\Business Systems Applications\Final Project Solution\Final Project\bin\Debug\Final Project.exe.config
 C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\bin\Debug\Final Project.exe.config
+C:\Users\Jared\Documents\GitHub\math107calc\Final Project Solution\Final Project\bin\Debug\Final Project.exe.config
