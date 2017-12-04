@@ -14,3 +14,6 @@ C:\Users\Jared\Documents\GitHub\math107calc\Final Project Solution\Final Project
 C:\Users\Jared\Documents\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.exe
 C:\Users\Jared\Documents\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.xml
 C:\Users\Jared\Documents\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.pdb
+C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.exe
+C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.xml
+C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.pdb
