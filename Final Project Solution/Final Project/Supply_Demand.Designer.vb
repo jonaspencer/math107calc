@@ -41,35 +41,35 @@ Partial Class Supply_Demand
         Me.txtSlope1.Location = New System.Drawing.Point(48, 49)
         Me.txtSlope1.Name = "txtSlope1"
         Me.txtSlope1.Size = New System.Drawing.Size(62, 20)
-        Me.txtSlope1.TabIndex = 0
+        Me.txtSlope1.TabIndex = 2
         '
         'txtSlope2
         '
         Me.txtSlope2.Location = New System.Drawing.Point(48, 150)
         Me.txtSlope2.Name = "txtSlope2"
         Me.txtSlope2.Size = New System.Drawing.Size(62, 20)
-        Me.txtSlope2.TabIndex = 1
+        Me.txtSlope2.TabIndex = 7
         '
         'txtIntercept1
         '
         Me.txtIntercept1.Location = New System.Drawing.Point(165, 51)
         Me.txtIntercept1.Name = "txtIntercept1"
         Me.txtIntercept1.Size = New System.Drawing.Size(100, 20)
-        Me.txtIntercept1.TabIndex = 2
+        Me.txtIntercept1.TabIndex = 4
         '
         'txtIntercept2
         '
         Me.txtIntercept2.Location = New System.Drawing.Point(165, 150)
         Me.txtIntercept2.Name = "txtIntercept2"
         Me.txtIntercept2.Size = New System.Drawing.Size(100, 20)
-        Me.txtIntercept2.TabIndex = 3
+        Me.txtIntercept2.TabIndex = 9
         '
         'btnCalc
         '
         Me.btnCalc.Location = New System.Drawing.Point(165, 208)
         Me.btnCalc.Name = "btnCalc"
         Me.btnCalc.Size = New System.Drawing.Size(75, 23)
-        Me.btnCalc.TabIndex = 4
+        Me.btnCalc.TabIndex = 11
         Me.btnCalc.Text = "&Calculate"
         Me.btnCalc.UseVisualStyleBackColor = True
         '
@@ -79,7 +79,7 @@ Partial Class Supply_Demand
         Me.Label1.Location = New System.Drawing.Point(45, 26)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 5
+        Me.Label1.TabIndex = 0
         Me.Label1.Text = "Supply"
         '
         'Label2
@@ -88,7 +88,7 @@ Partial Class Supply_Demand
         Me.Label2.Location = New System.Drawing.Point(45, 129)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(47, 13)
-        Me.Label2.TabIndex = 6
+        Me.Label2.TabIndex = 5
         Me.Label2.Text = "Demand"
         '
         'Label3
@@ -98,7 +98,7 @@ Partial Class Supply_Demand
         Me.Label3.Location = New System.Drawing.Point(112, 129)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(47, 67)
-        Me.Label3.TabIndex = 7
+        Me.Label3.TabIndex = 8
         Me.Label3.Text = "x +"
         '
         'Label4
@@ -108,7 +108,7 @@ Partial Class Supply_Demand
         Me.Label4.Location = New System.Drawing.Point(112, 28)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(47, 67)
-        Me.Label4.TabIndex = 8
+        Me.Label4.TabIndex = 3
         Me.Label4.Text = "x +"
         '
         'Label5
@@ -117,7 +117,7 @@ Partial Class Supply_Demand
         Me.Label5.Location = New System.Drawing.Point(-5, 129)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(47, 41)
-        Me.Label5.TabIndex = 9
+        Me.Label5.TabIndex = 6
         Me.Label5.Text = "y ="
         '
         'Label6
@@ -126,7 +126,7 @@ Partial Class Supply_Demand
         Me.Label6.Location = New System.Drawing.Point(-5, 26)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(47, 45)
-        Me.Label6.TabIndex = 10
+        Me.Label6.TabIndex = 1
         Me.Label6.Text = "y ="
         '
         'lblAns
@@ -135,7 +135,7 @@ Partial Class Supply_Demand
         Me.lblAns.Location = New System.Drawing.Point(48, 208)
         Me.lblAns.Name = "lblAns"
         Me.lblAns.Size = New System.Drawing.Size(100, 23)
-        Me.lblAns.TabIndex = 11
+        Me.lblAns.TabIndex = 10
         '
         'Supply_Demand
         '

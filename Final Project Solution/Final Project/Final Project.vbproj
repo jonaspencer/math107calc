@@ -106,6 +106,12 @@
     <Compile Include="ProfitModel.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="RegularPayments.Designer.vb">
+      <DependentUpon>RegularPayments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegularPayments.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Supply_Demand.Designer.vb">
       <DependentUpon>Supply_Demand.vb</DependentUpon>
     </Compile>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProfitModel.resx">
       <DependentUpon>ProfitModel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegularPayments.resx">
+      <DependentUpon>RegularPayments.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Supply_Demand.resx">
       <DependentUpon>Supply_Demand.vb</DependentUpon>

@@ -26,7 +26,6 @@ Partial Class ProfitModel
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.lblProfit = New System.Windows.Forms.Label()
-        Me.txtPrice = New System.Windows.Forms.TextBox()
         Me.txtCost = New System.Windows.Forms.TextBox()
         Me.txtQuantity = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -35,7 +34,7 @@ Partial Class ProfitModel
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 33)
+        Me.Label1.Location = New System.Drawing.Point(56, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(31, 13)
         Me.Label1.TabIndex = 0
@@ -44,46 +43,39 @@ Partial Class ProfitModel
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 73)
+        Me.Label2.Location = New System.Drawing.Point(19, 85)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(46, 13)
+        Me.Label2.Size = New System.Drawing.Size(49, 13)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Quantity"
+        Me.Label2.Text = "Quantity:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(12, 116)
+        Me.Label3.Location = New System.Drawing.Point(19, 128)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(68, 13)
+        Me.Label3.Size = New System.Drawing.Size(71, 13)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Cost per Unit"
+        Me.Label3.Text = "Cost per Unit:"
         '
         'lblProfit
         '
         Me.lblProfit.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblProfit.Location = New System.Drawing.Point(91, 175)
+        Me.lblProfit.Location = New System.Drawing.Point(98, 175)
         Me.lblProfit.Name = "lblProfit"
         Me.lblProfit.Size = New System.Drawing.Size(100, 25)
         Me.lblProfit.TabIndex = 3
         '
-        'txtPrice
-        '
-        Me.txtPrice.Location = New System.Drawing.Point(91, 25)
-        Me.txtPrice.Name = "txtPrice"
-        Me.txtPrice.Size = New System.Drawing.Size(100, 20)
-        Me.txtPrice.TabIndex = 4
-        '
         'txtCost
         '
-        Me.txtCost.Location = New System.Drawing.Point(91, 109)
+        Me.txtCost.Location = New System.Drawing.Point(98, 121)
         Me.txtCost.Name = "txtCost"
         Me.txtCost.Size = New System.Drawing.Size(100, 20)
         Me.txtCost.TabIndex = 5
         '
         'txtQuantity
         '
-        Me.txtQuantity.Location = New System.Drawing.Point(91, 66)
+        Me.txtQuantity.Location = New System.Drawing.Point(98, 78)
         Me.txtQuantity.Name = "txtQuantity"
         Me.txtQuantity.Size = New System.Drawing.Size(100, 20)
         Me.txtQuantity.TabIndex = 6
@@ -91,11 +83,11 @@ Partial Class ProfitModel
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(19, 176)
+        Me.Label5.Location = New System.Drawing.Point(19, 175)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(31, 13)
+        Me.Label5.Size = New System.Drawing.Size(34, 13)
         Me.Label5.TabIndex = 7
-        Me.Label5.Text = "Profit"
+        Me.Label5.Text = "Profit:"
         '
         'ProfitModel
         '
@@ -105,7 +97,6 @@ Partial Class ProfitModel
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.txtQuantity)
         Me.Controls.Add(Me.txtCost)
-        Me.Controls.Add(Me.txtPrice)
         Me.Controls.Add(Me.lblProfit)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -121,7 +112,6 @@ Partial Class ProfitModel
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents lblProfit As Label
-    Friend WithEvents txtPrice As TextBox
     Friend WithEvents txtCost As TextBox
     Friend WithEvents txtQuantity As TextBox
     Friend WithEvents Label5 As Label
