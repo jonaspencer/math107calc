@@ -31,3 +31,7 @@ C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Projec
 C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.Supply_Demand.resources
 C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.vbproj.GenerateResource.Cache
 >>>>>>> origin/master
+K:\Final Project\math107calc\Final Project Solution\Final Project\bin\Debug\Final Project.exe.config
+K:\Final Project\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.exe
+K:\Final Project\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.xml
+K:\Final Project\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.pdb
