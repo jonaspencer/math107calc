@@ -6,6 +6,8 @@ Public Class frmMain
     ' Variables for other formula forms
     Dim sd As Supply_Demand = New Supply_Demand()
     Dim pf As ProfitModel = New ProfitModel()
+    Dim aroc As AvgRateofChange = New AvgRateofChange()
+    Dim interest As TimeVal = New TimeVal()
 
     'Making the entire form draggable
     Dim drag As Boolean
@@ -49,4 +51,11 @@ Public Class frmMain
         Me.Close()
     End Sub
 
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        aroc.Show()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        interest.Show()
+    End Sub
 End Class

@@ -28,21 +28,18 @@ Partial Class frmMain
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
-        Me.Panel1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -60,26 +57,7 @@ Partial Class frmMain
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Unit 1"
-	'
-        'Button5
-	'
-        Me.Button5.Location = New System.Drawing.Point(6, 138)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(126, 23)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = True
         '
-        Me.Button5.BackColor = System.Drawing.Color.White
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(177, Byte), Integer))
-        Me.Button5.Location = New System.Drawing.Point(6, 138)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(126, 23)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = False
-	'
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.White
@@ -90,7 +68,7 @@ Partial Class frmMain
         Me.Button4.Size = New System.Drawing.Size(126, 40)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "Avg Rate of Change"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
         '
@@ -103,15 +81,9 @@ Partial Class frmMain
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Profit Model"
         Me.Button3.UseVisualStyleBackColor = False
-	'
-        'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(6, 109)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(126, 23)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
+        'Button2
+        '
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(177, Byte), Integer))
@@ -119,8 +91,8 @@ Partial Class frmMain
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(126, 23)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Supply && Demand"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.Button2.Text = "Supply and Demand"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
@@ -131,80 +103,13 @@ Partial Class frmMain
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(126, 23)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Other"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(7, 50)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(126, 23)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Supply and Demand"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(7, 20)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(126, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Interest"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
         Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.GroupBox2.Location = New System.Drawing.Point(186, 21)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(139, 174)
-        Me.GroupBox2.TabIndex = 1
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Unit 2"
-	'
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Panel1.BackgroundImage = Global.Final_Project.My.Resources.Resources.mathematics_1511877129494_228
-        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.Button12)
-        Me.Panel1.Controls.Add(Me.Button11)
-        Me.Panel1.Controls.Add(Me.GroupBox2)
-        Me.Panel1.Controls.Add(Me.GroupBox1)
-        Me.Panel1.Location = New System.Drawing.Point(0, -4)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(486, 248)
-        Me.Panel1.TabIndex = 3
-        '
-        'Button12
-        '
-        Me.Button12.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.Button12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(177, Byte), Integer))
-        Me.Button12.Location = New System.Drawing.Point(360, 62)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(95, 41)
-        Me.Button12.TabIndex = 7
-        Me.Button12.Text = "Terminate Apps"
-        Me.Button12.UseVisualStyleBackColor = False
-        '
-        'Button11
-        '
-        Me.Button11.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.Button11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(177, Byte), Integer))
-        Me.Button11.Location = New System.Drawing.Point(360, 118)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(95, 28)
-        Me.Button11.TabIndex = 6
-        Me.Button11.Text = "Exit"
-        Me.Button11.UseVisualStyleBackColor = False
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox2.Controls.Add(Me.Button6)
         Me.GroupBox2.Controls.Add(Me.Button7)
         Me.GroupBox2.Controls.Add(Me.Button8)
@@ -279,6 +184,21 @@ Partial Class frmMain
         Me.Button10.Text = "Other"
         Me.Button10.UseVisualStyleBackColor = False
         '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Panel1.BackgroundImage = Global.Final_Project.My.Resources.Resources.mathematics_1511877129494_228
+        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.Button12)
+        Me.Panel1.Controls.Add(Me.Button11)
+        Me.Panel1.Controls.Add(Me.GroupBox2)
+        Me.Panel1.Controls.Add(Me.GroupBox1)
+        Me.Panel1.Location = New System.Drawing.Point(0, -4)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(486, 248)
+        Me.Panel1.TabIndex = 3
+        '
         'Label1
         '
         Me.Label1.BackColor = System.Drawing.SystemColors.ButtonHighlight
@@ -291,6 +211,30 @@ Partial Class frmMain
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "Math 107 Helper"
         '
+        'Button12
+        '
+        Me.Button12.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.Button12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(177, Byte), Integer))
+        Me.Button12.Location = New System.Drawing.Point(360, 62)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(95, 41)
+        Me.Button12.TabIndex = 7
+        Me.Button12.Text = "Terminate Apps"
+        Me.Button12.UseVisualStyleBackColor = False
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.Button11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(177, Byte), Integer))
+        Me.Button11.Location = New System.Drawing.Point(360, 118)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(95, 28)
+        Me.Button11.TabIndex = 6
+        Me.Button11.Text = "Exit"
+        Me.Button11.UseVisualStyleBackColor = False
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -300,8 +244,8 @@ Partial Class frmMain
         Me.Controls.Add(Me.Panel1)
         Me.Name = "frmMain"
         Me.GroupBox1.ResumeLayout(False)
-        Me.Panel1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
