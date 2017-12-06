@@ -59,3 +59,5 @@ C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Projec
 C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.RegularPayments.resources
 C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.Supply_Demand.resources
 C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.vbproj.GenerateResource.Cache
+K:\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.RegularPayments.resources
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.RegularPayments.resources

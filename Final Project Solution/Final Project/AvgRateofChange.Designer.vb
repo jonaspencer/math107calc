@@ -139,7 +139,7 @@ Partial Class AvgRateofChange
         '
         'btnCalc
         '
-        Me.btnCalc.Location = New System.Drawing.Point(197, 187)
+        Me.btnCalc.Location = New System.Drawing.Point(197, 216)
         Me.btnCalc.Name = "btnCalc"
         Me.btnCalc.Size = New System.Drawing.Size(75, 23)
         Me.btnCalc.TabIndex = 12
@@ -164,7 +164,7 @@ Partial Class AvgRateofChange
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(197, 216)
+        Me.btnClear.Location = New System.Drawing.Point(197, 190)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(75, 23)
         Me.btnClear.TabIndex = 15
