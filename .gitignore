@@ -1,3 +1,8 @@
 
 Final Project Solution/.vs/Final Project Solution/v14/.suo
 Final Project Solution/.vs/Final Project Solution/v14/.suo
+Final Project Solution/Final Project/bin/Debug/Final Project.exe
+Final Project Solution/Final Project/bin/Debug/Final Project.pdb
+*.pdb
+*.cache
+*.exe
