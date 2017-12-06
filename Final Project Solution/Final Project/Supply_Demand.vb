@@ -25,10 +25,12 @@ Public Class Supply_Demand
             If intercept1 = intercept2 Then
                 Response = "These lines intersect at every point"
                 MessageBox.Show(Response)
+                Response = "Same Line"
             Else
                 ' else they are parallel
                 Response = "These lines are parallel and do not intersect"
                 MessageBox.Show(Response)
+                Response = "Parallel"
             End If
         Else
             ' Not the same slope
