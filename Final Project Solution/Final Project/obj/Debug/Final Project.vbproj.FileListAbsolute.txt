@@ -17,3 +17,33 @@ C:\Users\Jared\Documents\GitHub\math107calc\Final Project Solution\Final Project
 C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.exe
 C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.xml
 C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.pdb
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\bin\Debug\Final Project.exe.config
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.exe
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.xml
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.pdb
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\bin\Debug\Final Project.exe
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\bin\Debug\Final Project.pdb
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\bin\Debug\Final Project.xml
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.vbprojResolveAssemblyReference.cache
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.TimeVal.resources
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.frmMain.resources
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.Resources.resources
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.ProfitModel.resources
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.Supply_Demand.resources
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.vbproj.GenerateResource.Cache
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.AvgRateofChange.resources
+K:\GitHub\math107calc\Final Project Solution\Final Project\bin\Debug\Final Project.exe.config
+K:\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.exe
+K:\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.xml
+K:\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.pdb
+K:\GitHub\math107calc\Final Project Solution\Final Project\bin\Debug\Final Project.exe
+K:\GitHub\math107calc\Final Project Solution\Final Project\bin\Debug\Final Project.pdb
+K:\GitHub\math107calc\Final Project Solution\Final Project\bin\Debug\Final Project.xml
+K:\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.vbprojResolveAssemblyReference.cache
+K:\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.AvgRateofChange.resources
+K:\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.TimeVal.resources
+K:\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.frmMain.resources
+K:\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.Resources.resources
+K:\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.ProfitModel.resources
+K:\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.Supply_Demand.resources
+K:\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final Project.vbproj.GenerateResource.Cache

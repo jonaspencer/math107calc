@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AvgRateofChange.Designer.vb">
+      <DependentUpon>AvgRateofChange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AvgRateofChange.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Interest.Designer.vb">
       <DependentUpon>Interest.vb</DependentUpon>
     </Compile>
@@ -114,6 +120,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AvgRateofChange.resx">
+      <DependentUpon>AvgRateofChange.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interest.resx">
       <DependentUpon>Interest.vb</DependentUpon>
     </EmbeddedResource>
