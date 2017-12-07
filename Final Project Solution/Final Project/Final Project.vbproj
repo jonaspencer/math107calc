@@ -78,6 +78,12 @@
     <Compile Include="AvgRateofChange.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DerivRules.Designer.vb">
+      <DependentUpon>DerivRules.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DerivRules.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Interest.Designer.vb">
       <DependentUpon>Interest.vb</DependentUpon>
     </Compile>
@@ -128,6 +134,9 @@
   <ItemGroup>
     <EmbeddedResource Include="AvgRateofChange.resx">
       <DependentUpon>AvgRateofChange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DerivRules.resx">
+      <DependentUpon>DerivRules.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interest.resx">
       <DependentUpon>Interest.vb</DependentUpon>
