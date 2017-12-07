@@ -1,4 +1,12 @@
-﻿Public Class TimeVal
+﻿'Interest program
+'Calculates the future value of money (TVM) 
+'Author: David Abraham
+
+Option Strict On
+Option Explicit On
+Option Infer Off
+
+Public Class TimeVal
 
     Function findFV(ByVal PV As Double, i As Double, n As Integer, t As Integer) As Double
         Dim FV As Double
@@ -12,15 +20,15 @@
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
 
         Dim dblPrincipal As Double
-        Dim intRate As Integer
-        Dim intYears As Integer
+        Dim dblRate As Double
+        Dim dblYears As Double
         Dim intCPeriods As Integer
         Dim dblFv As Double
 
 
         Double.TryParse(txtPrincipal.Text, dblPrincipal)
-        Decimal.TryParse(txtInterestRate.Text, intRate)
-        Decimal.TryParse(txtYears.Text, intYears)
+        Double.TryParse(txtInterestRate.Text, dblRate)
+        Double.TryParse(txtYears.Text, dblYears)
 
         If radQuarterly.Checked Then
             intCPeriods = 4
@@ -38,7 +46,7 @@
             intCPeriods = 1
         End If
 
-        dblFv = findFV(dblPrincipal, intRate, intCPeriods, intYears)
+        dblFv = findFV(dblPrincipal, dblRate, intCPeriods, CInt(dblYears))
 
         lblAns.Text = dblFv.ToString("c2")
     End Sub
@@ -53,7 +61,11 @@
     End Sub
 
     Private Sub TimeVal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         radYearly.Checked = True
+
+        MessageBox.Show("FV = PV * (1 + (i / n)) ^ (n * t)", "Time Value of Money",
+          MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk)
 
     End Sub
 
