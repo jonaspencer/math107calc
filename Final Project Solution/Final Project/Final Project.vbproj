@@ -84,6 +84,12 @@
     <Compile Include="DerivRules.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DescDerivative.Designer.vb">
+      <DependentUpon>DescDerivative.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DescDerivative.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Interest.Designer.vb">
       <DependentUpon>Interest.vb</DependentUpon>
     </Compile>
@@ -137,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DerivRules.resx">
       <DependentUpon>DerivRules.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DescDerivative.resx">
+      <DependentUpon>DescDerivative.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interest.resx">
       <DependentUpon>Interest.vb</DependentUpon>
