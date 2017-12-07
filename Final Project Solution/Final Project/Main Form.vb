@@ -15,8 +15,8 @@ Public Class frmMain
     Dim pf As ProfitModel = New ProfitModel()
     Dim aroc As AvgRateofChange = New AvgRateofChange()
     Dim interest As TimeVal = New TimeVal()
-    Dim descderiv As DescDerivative = New DescDerivative()
-    Dim rulederiv As DerivativeRules = New DerivativeRules()
+    ' Dim descderiv As DescDerivative = New DescDerivative()
+    Dim rulederiv As DerivRules = New DerivRules()
 
     'Making the entire form draggable
     Dim drag As Boolean
@@ -67,10 +67,10 @@ Public Class frmMain
         interest.BringToFront()
     End Sub
 
-    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
-        descderiv.Show()
-        descderiv.BringToFront()
-    End Sub
+    'Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+    '    descderiv.Show()
+    '    descderiv.BringToFront()
+    'End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         rulederiv.Show()
@@ -83,7 +83,7 @@ Public Class frmMain
         pf.Hide()
         aroc.Hide()
         interest.Hide()
-        descderiv.Hide()
+        ' descderiv.Hide()
         rulederiv.Hide()
         Me.BringToFront()
     End Sub

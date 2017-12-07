@@ -1,11 +1,20 @@
-﻿Public Class AvgRateofChange
+﻿'Avergae rate of change program
+'Calculates the average rate of change of a function
+'Author: David Abraham
+
+Option Strict On
+Option Explicit On
+Option Infer Off
+
+Public Class AvgRateofChange
 
     Private dblPower As Double
 
     Function findAvg(ByVal A As Double, ByVal B As Double, ByVal C As Double, ByVal X As Double) As Double
+
         Dim dblResult As Double
         If txtPower.Text = "" Then
-            txtPower.Text = 1
+            txtPower.Text = CType(1, String)
         End If
 
         Double.TryParse(txtPower.Text, dblPower)
