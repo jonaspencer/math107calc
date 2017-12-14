@@ -80,3 +80,5 @@ C:\Users\cp1301\Downloads\math107calc-master(1)\math107calc-master\Final Project
 C:\Users\cp1301\Downloads\math107calc-master(1)\math107calc-master\Final Project Solution\Final Project\obj\Debug\Final_Project.DerivRules.resources
 C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.DerivRules.resources
 C:\Users\Jonathan\Dropbox\Business Systems Applications\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.DescDerivative.resources
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.DerivRules.resources
+\\ad.messiah.edu\files\students\da1238\GitHub\math107calc\Final Project Solution\Final Project\obj\Debug\Final_Project.DescDerivative.resources

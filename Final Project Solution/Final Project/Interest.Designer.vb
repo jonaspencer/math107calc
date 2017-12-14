@@ -120,6 +120,7 @@ Partial Class TimeVal
         Me.GroupBox1.Controls.Add(Me.radDaily)
         Me.GroupBox1.Controls.Add(Me.radMonthly)
         Me.GroupBox1.Controls.Add(Me.radQuarterly)
+        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(220, 34)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(136, 122)

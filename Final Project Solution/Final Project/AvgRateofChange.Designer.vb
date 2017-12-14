@@ -38,12 +38,15 @@ Partial Class AvgRateofChange
         Me.Label7 = New System.Windows.Forms.Label()
         Me.txtPower = New System.Windows.Forms.TextBox()
         Me.btnClear = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(10, 43)
+        Me.Label1.Location = New System.Drawing.Point(12, 40)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(44, 13)
         Me.Label1.TabIndex = 0
@@ -52,7 +55,7 @@ Partial Class AvgRateofChange
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(10, 75)
+        Me.Label2.Location = New System.Drawing.Point(14, 75)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(42, 13)
         Me.Label2.TabIndex = 1
@@ -60,14 +63,14 @@ Partial Class AvgRateofChange
         '
         'txtXinital
         '
-        Me.txtXinital.Location = New System.Drawing.Point(60, 43)
+        Me.txtXinital.Location = New System.Drawing.Point(79, 40)
         Me.txtXinital.Name = "txtXinital"
         Me.txtXinital.Size = New System.Drawing.Size(68, 20)
         Me.txtXinital.TabIndex = 2
         '
         'txtXfinal
         '
-        Me.txtXfinal.Location = New System.Drawing.Point(60, 74)
+        Me.txtXfinal.Location = New System.Drawing.Point(79, 75)
         Me.txtXfinal.Name = "txtXfinal"
         Me.txtXfinal.Size = New System.Drawing.Size(68, 20)
         Me.txtXfinal.TabIndex = 3
@@ -101,21 +104,21 @@ Partial Class AvgRateofChange
         '
         'txtA
         '
-        Me.txtA.Location = New System.Drawing.Point(60, 105)
+        Me.txtA.Location = New System.Drawing.Point(79, 110)
         Me.txtA.Name = "txtA"
         Me.txtA.Size = New System.Drawing.Size(68, 20)
         Me.txtA.TabIndex = 7
         '
         'txtB
         '
-        Me.txtB.Location = New System.Drawing.Point(60, 136)
+        Me.txtB.Location = New System.Drawing.Point(79, 141)
         Me.txtB.Name = "txtB"
         Me.txtB.Size = New System.Drawing.Size(68, 20)
         Me.txtB.TabIndex = 8
         '
         'txtC
         '
-        Me.txtC.Location = New System.Drawing.Point(60, 167)
+        Me.txtC.Location = New System.Drawing.Point(79, 170)
         Me.txtC.Name = "txtC"
         Me.txtC.Size = New System.Drawing.Size(68, 20)
         Me.txtC.TabIndex = 9
@@ -123,7 +126,7 @@ Partial Class AvgRateofChange
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(14, 221)
+        Me.Label6.Location = New System.Drawing.Point(191, 201)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(40, 13)
         Me.Label6.TabIndex = 10
@@ -132,14 +135,14 @@ Partial Class AvgRateofChange
         'lblResult
         '
         Me.lblResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblResult.Location = New System.Drawing.Point(60, 216)
+        Me.lblResult.Location = New System.Drawing.Point(237, 194)
         Me.lblResult.Name = "lblResult"
         Me.lblResult.Size = New System.Drawing.Size(87, 23)
         Me.lblResult.TabIndex = 11
         '
         'btnCalc
         '
-        Me.btnCalc.Location = New System.Drawing.Point(197, 216)
+        Me.btnCalc.Location = New System.Drawing.Point(395, 194)
         Me.btnCalc.Name = "btnCalc"
         Me.btnCalc.Size = New System.Drawing.Size(75, 23)
         Me.btnCalc.TabIndex = 12
@@ -149,7 +152,7 @@ Partial Class AvgRateofChange
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(147, 42)
+        Me.Label7.Location = New System.Drawing.Point(10, 204)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(62, 13)
         Me.Label7.TabIndex = 13
@@ -157,25 +160,56 @@ Partial Class AvgRateofChange
         '
         'txtPower
         '
-        Me.txtPower.Location = New System.Drawing.Point(215, 39)
+        Me.txtPower.Location = New System.Drawing.Point(79, 201)
         Me.txtPower.Name = "txtPower"
         Me.txtPower.Size = New System.Drawing.Size(45, 20)
         Me.txtPower.TabIndex = 14
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(197, 190)
+        Me.btnClear.Location = New System.Drawing.Point(395, 160)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(75, 23)
         Me.btnClear.TabIndex = 15
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(215, 28)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(59, 25)
+        Me.Label8.TabIndex = 16
+        Me.Label8.Text = "Key:"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(217, 75)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(246, 13)
+        Me.Label9.TabIndex = 17
+        Me.Label9.Text = "Fields a, b, c, represent co-efficents of the function"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(217, 105)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(253, 13)
+        Me.Label10.TabIndex = 18
+        Me.Label10.Text = "Initial and Final X represent the range of the function"
+        '
         'AvgRateofChange
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.ClientSize = New System.Drawing.Size(480, 231)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.txtPower)
         Me.Controls.Add(Me.Label7)
@@ -215,4 +249,7 @@ Partial Class AvgRateofChange
     Friend WithEvents Label7 As Label
     Friend WithEvents txtPower As TextBox
     Friend WithEvents btnClear As Button
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label10 As Label
 End Class

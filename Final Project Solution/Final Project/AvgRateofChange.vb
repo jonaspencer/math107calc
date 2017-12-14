@@ -121,7 +121,8 @@ Public Class AvgRateofChange
 
     End Sub
 
-
-
-
+    Private Sub AvgRateofChange_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        MessageBox.Show("A(x) = f(x) - f(a) / x - a", "Ab",
+          MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk)
+    End Sub
 End Class
